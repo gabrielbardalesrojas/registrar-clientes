@@ -1,0 +1,114 @@
+/* Estilos para el encabezado */
+header {
+    position: relative;
+    height: 20vh; /* Altura igual al 100% de la ventana */
+    background-image: url('../img/vista1.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del encabezado */
+            background-position: top;
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-bienvenida {
+    font-size: 50px; /* Tamaño del texto de bienvenida */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+
+.boton {
+    position: absolute;
+    top: 20px; /* Espacio desde la parte superior */
+    right: 20px; /* Espacio desde la parte derecha */
+    padding: 10px 20px; /* Padding del botón */
+    background-color: #032142; /* Color de fondo del botón */
+    color: rgb(219, 233, 18); /* Color del texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición al pasar el ratón */
+}
+
+.boton:hover {
+    background-color: #07c048; /* Color de fondo del botón al pasar el ratón */
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+.btn button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn button img {
+    width: 30px;
+    height: auto;
+    
+}
+/*
+contenido
+*/
+
+/* Estilos para el pie de página */
+.footer {
+    
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../img/vista1.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen al tamaño del encabezado */
+            background-position: bottom;
+    color: #ffffff;
+    
+    
+    
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer .nav-links a {
+    margin: 0 10px;
+}
+
+.footer .nav-links img {
+    width: 30px;
+    height: auto;
+    background: #ffffff;
+   
+}

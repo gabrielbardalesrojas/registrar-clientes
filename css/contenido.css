@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1ecee;
+    margin: 0;
+    padding: 10px;
+    
+    
+}
+.cuerpo {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/image.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    
+   
+}
+
+
+.container {
+    width: 600px;
+    padding: 20px;
+    background-color: #45ceda;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+   
+}
+
+h2 {
+    margin-top: 0;
+}
+.clase{
+    display: flex;
+}
+.clase input[type="text"] {
+    width: calc(100% - 78px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.clase button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.clase button:hover {
+    background-color: #45a049;
+}
+
+#resultados {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fffdfd;
+    justify-content: space-between;
+}
+#resultados table {
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+    width: 100%; /* Opcional: Ancho de la tabla al 100% */
+}
+
+#resultados th,
+#resultados td {
+    padding: 10px; /* Ajusta el espaciado interno de las celdas */
+}
+
+#resultados th {
+    background-color: #daf3f6; /* Color de fondo de las celdas de encabezado */
+}
+
+/*imegen crear*/
+.contenedor {
+    text-align: center; /* Centra los elementos horizontalmente */
+}
+
+.contenedor img {
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura ajustada automáticamente */
+    display: block; /* Para centrar verticalmente la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.contenedor button {
+    margin-top: 10px; /* Espacio entre la imagen y el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+    background-color: #0fbad8; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.contenedor button:hover {
+    background-color: #1d55d7; /* Cambia el color de fondo al pasar sobre el botón */
+}
+/*el registro
+*/
+
+.contiene {
+    width: 40vh;
+    padding: 20px;
+    background-color: #22c6e2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.conti{
+width: 100%;
+}
+
+.conti h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conti label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: auto;
+}
+
+.conti input[type="text"] {
+    padding: 1vh;
+    margin-bottom: 1vh;
+    border: 1px solid #ccc;
+    border-radius: 0.5vh;
+    transition: border-color 0.3s ease;
+    width: 36vh;
+}
+
+.conti input[type="text"]:focus {
+    border-color: #1a0fe7;
+}
+
+.conti button[type="submit"] {
+    padding: 12px 20px;
+    background-color: #229ee6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.conti button[type="submit"]:hover {
+    background-color: #088ca3;
+}
+
+
